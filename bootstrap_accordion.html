@@ -15,12 +15,12 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
-    <title>FAQ Collapse</title>
+    <title>FAQ Collapse bootstrap</title>
   </head>
   <body>
     <div class="container">
-      <h1 class="text-center">Bootstrap Accordion</h1>
-      <hr>
+      <h1 class="text-center">Bootstrap Frequently Asked Questions</h1>
+      <hr />
       <div class="accordion ml-1 mr-1" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
@@ -32,7 +32,7 @@
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              Accordion Item #1
+              What is HTML?
             </button>
           </h2>
           <div
@@ -42,14 +42,11 @@
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is
-              shown by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              Hypertext Markup Language (HTML) is a computer language that makes
+              up most web pages and online applications. A hypertext is a text
+              that is used to reference other pieces of text, while a markup
+              language is a series of markings that tells web servers the style
+              and structure of a document. HTML is very simple to learn and use.
             </div>
           </div>
         </div>
@@ -63,7 +60,7 @@
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              Accordion Item #2
+              What is CSS?
             </button>
           </h2>
           <div
@@ -73,14 +70,12 @@
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              CSS stands for Cascading Style Sheets. It is the language for
+              describing the presentation of Web pages, including colours,
+              layout, and fonts, thus making our web pages presentable to the
+              users. CSS is designed to make style sheets for the web. It is
+              independent of HTML and can be used with any XML-based markup
+              language. CSS is popularly called the design language of the web.
             </div>
           </div>
         </div>
@@ -94,7 +89,7 @@
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              Accordion Item #3
+              What is JavaScript?
             </button>
           </h2>
           <div
@@ -104,14 +99,37 @@
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              JavaScript is a scripting or programming language that allows you
+              to implement complex features on web pages — every time a web page
+              does more than just sit there and display static information for
+              you to look at — displaying timely content updates, interactive
+              maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. —
+              you can bet that JavaScript is probably involved. It is the third
+              of the web trio.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+            What is React?
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              React is a JavaScript library created for building fast and interactive user interfaces for web and mobile applications. It is an open-source, component-based, front-end library responsible only for the application’s view layer. In Model View Controller (MVC) architecture, the view layer is responsible for how the app looks and feels. React was created by Jordan Walke, a software engineer at Facebook.
             </div>
           </div>
         </div>

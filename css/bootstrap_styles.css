@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.pad {
+    padding: 20px;
+}
+
+body {
+    background-color: #f2f4f6;
+    font-family: 'Inter', sans-serif;
+  }
+
+
+
+  @media screen and (min-width: 900px) {
+    .accordion {
+      margin-left: 20%;
+      margin-right: 20%;
+      padding: 20px;
+      width: 800px;
+      margin: 90px auto;
+      color: black;
+      background-color: white;
+      padding: 45px 45px;
+    }
+    }
+    
+    @media screen and (max-width: 899px) {
+      .accordion {
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 20px;
+        width: auto;
+        margin: 90px auto;
+        color: black;
+        background-color: white;
+        padding: 45px 45px;
+      }
+      }

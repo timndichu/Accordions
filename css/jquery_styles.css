@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Sets the background color of the body to blue. Sets font to Inter */
+
+body {
+  background-color: #eeeff1;
+  font-family: 'Inter', sans-serif;
+}
+ 
+h1 {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+h2, h3, h4,p {
+  font-family: 'Inter', sans-serif;
+}
+
+
+@media screen and (min-width: 900px) {
+.accordion-bg {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 20px;
+  width: 800px;
+  margin: 90px auto;
+  color: black;
+  background-color: white;
+  padding: 45px 45px;
+}
+}
+
+@media screen and (max-width: 899px) {
+  .accordion-bg {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    width: auto;
+    margin: 90px auto;
+    color: black;
+    background-color: white;
+    padding: 45px 45px;
+  }
+  }

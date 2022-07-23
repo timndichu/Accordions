@@ -1,49 +1,75 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>jQuery UI Accordion - Collapse content</title>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-  <script>
-  $( function() {
-    $( "#accordion" ).accordion({
-      collapsible: true
-    });
-  } );
-  </script>
-</head>
-<body>
- <div>
-  <h1>jQuery Accordion</h1>
-  <div id="accordion">
-    <h3>Section 1</h3>
-    <div>
-      <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jQuery UI Accordion - Collapse content</title>
+       <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="./css/jquery_styles.css" />
+    <script>
+      $(function () {
+        $("#accordion").accordion({
+          collapsible: true,
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="accordion-bg">
+      <h1>(jQuery) Frequently Asked Questions</h1>
+      <div id="accordion">
+        <h3>What is HTML?</h3>
+        <div>
+          <p>
+            Hypertext Markup Language (HTML) is a computer language that makes
+            up most web pages and online applications. A hypertext is a text
+            that is used to reference other pieces of text, while a markup
+            language is a series of markings that tells web servers the style
+            and structure of a document. HTML is very simple to learn and use.
+          </p>
+        </div>
+        <h3>What is CSS?</h3>
+        <div>
+          <p>
+            CSS stands for Cascading Style Sheets. It is the language for
+            describing the presentation of Web pages, including colours, layout,
+            and fonts, thus making our web pages presentable to the users. CSS
+            is designed to make style sheets for the web. It is independent of
+            HTML and can be used with any XML-based markup language. CSS is
+            popularly called the design language of the web.
+          </p>
+          
+        </div>
+        <h3>What is JavaScript?</h3>
+        <div>
+          <p>
+            JavaScript is a scripting or programming language that allows you to
+            implement complex features on web pages — every time a web page does
+            more than just sit there and display static information for you to
+            look at — displaying timely content updates, interactive maps,
+            animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can
+            bet that JavaScript is probably involved. It is the third of the web
+            trio.
+          </p>
+        </div>
+        <h3>What is React?</h3>
+        <div>
+          <p>
+            React is a JavaScript library created for building fast and
+            interactive user interfaces for web and mobile applications. It is
+            an open-source, component-based, front-end library responsible only
+            for the application's view layer. In Model View Controller (MVC)
+            architecture, the view layer is responsible for how the app looks
+            and feels. React was created by Jordan Walke, a software engineer at
+            Facebook.
+          </p>
+        </div>
+      </div>
     </div>
-    <h3>Section 2</h3>
-    <div>
-      <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
-    </div>
-    <h3>Section 3</h3>
-    <div>
-      <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
-      <ul>
-        <li>List item one</li>
-        <li>List item two</li>
-        <li>List item three</li>
-      </ul>
-    </div>
-    <h3>Section 4</h3>
-    <div>
-      <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
-    </div>
-  </div>
-   
- </div>
-
- 
-</body>
+  </body>
 </html>

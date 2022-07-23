@@ -10,7 +10,7 @@ body {
   }
 
 
-
+/* responsiveness of accordion */
   @media screen and (min-width: 900px) {
     .accordion {
       margin-left: 20%;

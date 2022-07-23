@@ -1,9 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
-/* Sets the background color of the body to blue. Sets font to Rubik */
-
+/* Sets the background color of the body to blue. Sets font to Inter */
 body {
   background-color: #eeeff1;
   /* font-family: 'rubik', sans-serif; */
@@ -11,13 +8,12 @@ body {
 }
 
 /* Aligns the heading text to the center. */
-
 h1 {
   text-align: center;
 }
 
 /* Sets the width for the accordion. Sets the margin to 90px on the top and bottom and auto to the left and right */
-
+/* Media query for responsiveness */
 @media screen and (min-width: 900px) {
   .accordion {
     margin-left: 20%;
@@ -57,7 +53,6 @@ h1 {
 /* Positions the labels relative to the .container. 
 Adds padding to the top and bottom and increases font size. 
 Also makes its cursor a pointer */
-
 .accordion .label {
   position: relative;
   padding: 10px 0;
@@ -68,7 +63,6 @@ Also makes its cursor a pointer */
 
 /* Positions the plus sign 5px from the right. 
 Centers it using the transform property. */
-
 .accordion .label::before {
   content: "+";
   color: black;
@@ -81,7 +75,6 @@ Centers it using the transform property. */
 
 /* Hides the content (height: 0), decreases font size, 
 justifies text and adds transition */
-
 .accordion .content {
   position: relative;
   background: white;
@@ -93,7 +86,6 @@ justifies text and adds transition */
 }
 
 /* Adds a horizontal line between the contents */
-
 .accordion hr {
   width: 100;
   margin-left: 0;
@@ -101,7 +93,6 @@ justifies text and adds transition */
 }
 
 /* Unhides the content part when active. Sets the height */
-
 .accordion .container.active .content {
   height: 150px;
 }
@@ -112,6 +103,7 @@ justifies text and adds transition */
   font-size: 30px;
 }
 
+/* setting color of content currently active/collapsed */
 .active {
   color: orangered;
 }
